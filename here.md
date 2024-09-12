@@ -2,7 +2,7 @@
 1. Open Anaconda Prompt
 2. Create a new environment in Anaconda <br>
 Run `conda create --name F20DL_CW python=3.x`, and activate it by running `conda activate F20DL_CW`, set up the environment with the packages in `environment.yml` by running `conda env update --file environment.yml --prune` <br>
-3. If someone install a new package, you need to update the `environment.yml` by running `conda env export --no-builds > environment.yml`
+3. If wanna install a new package in environemnt, you need to update the `environment.yml` as well by running `conda env export --no-builds > environment.yml`
 4. After you pull the updated `environment.yml`, you need to update your local environment as well by running `conda env update --file environment.yml --prune`
 
 ## How to push?
